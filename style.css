@@ -149,6 +149,45 @@ ul.ul_m {
 
 /*Responsive part*/
 /* Small devices (phones, portrait) */
+
+@media (min-width: 379px) and (max-width: 479px) {
+    /* CSS rules here */
+    .header {
+        height: 850px;
+    }
+    .header_l {
+        width: 100%;
+    }    
+    .header_l h1 {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        margin-top: 3%;
+    }
+    .header_l .ICB_logo {
+        display: flex;
+        justify-content: center;
+    }
+    .header_l ul {
+        text-align: center;
+        
+    }
+    .main h1 {
+        text-align: center;
+    }
+    .main p {
+        text-align: center;
+    }
+    .accordion-container {
+        max-width: 80%;
+    }
+    .video {
+        height: 220px;
+        
+    }
+}
+
 @media (max-width: 480px) {
     /* CSS rules here */
     .header_l {
