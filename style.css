@@ -183,7 +183,7 @@ ul.ul_m {
     }
 }
 
-@media (max-width: 378px) {
+@media (min-width: 268px) and (max-width: 378px) {
     /* CSS rules here */
     .header {
         height: 850px;
@@ -221,6 +221,45 @@ ul.ul_m {
     }
 }
 
+@media (max-width: 267px) {
+    /* CSS rules here */
+    .header {
+        height: 850px;
+    }
+    .header_l {
+        width: 100%;
+    }    
+    .header_l h1 {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        margin-top: 3%;
+    }
+    .header_l .ICB_logo {
+        display: flex;
+        justify-content: center;
+    }
+    .header_l ul {
+        text-align: center;
+        
+    }
+    .main h1 {
+        text-align: center;
+    }
+    .main p {
+        text-align: center;
+    }
+    .accordion-container {
+        max-width: 80%;
+    }
+    .video {
+        height: 100px;
+        
+    }
+}
+
+  
   /* Medium devices (tablets, portrait) */
   @media (min-width: 481px) and (max-width: 768px) {
     /* CSS rules here */
